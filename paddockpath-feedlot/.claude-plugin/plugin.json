@@ -1,0 +1,22 @@
+{
+  "name": "paddockpath-feedlot",
+  "displayName": "PaddockPath Feedlot",
+  "version": "0.1.0",
+  "description": "Your feedlot's PaddockPath records in your own Claude, read-only, with a skill for each report feedlots make again and again. The figures follow the PaddockPath app's own definitions, and the reports come out in PaddockPath's look, Word and PDF included.",
+  "author": {
+    "name": "PaddockPath",
+    "url": "https://www.paddockpath.com"
+  },
+  "homepage": "https://www.paddockpath.com/ai",
+  "license": "LicenseRef-PaddockPath",
+  "keywords": [
+    "feedlot",
+    "cattle",
+    "livestock",
+    "reports",
+    "paddockpath"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://www.paddockpath.com/privacy",
+  "termsOfServiceUrl": "https://www.paddockpath.com/terms"
+}

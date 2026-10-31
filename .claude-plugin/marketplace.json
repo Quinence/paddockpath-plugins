@@ -1,0 +1,18 @@
+{
+  "name": "paddockpath",
+  "owner": {
+    "name": "PaddockPath",
+    "email": "hello@paddockpath.com"
+  },
+  "metadata": {
+    "description": "A company's PaddockPath records in their own Claude, read-only."
+  },
+  "plugins": [
+    {
+      "name": "paddockpath-feedlot",
+      "source": "./paddockpath-feedlot",
+      "description": "Your feedlot's PaddockPath records in your own Claude, read-only, with a skill for each report feedlots make again and again. The figures follow the PaddockPath app's own definitions, and the reports come out in PaddockPath's look, Word and PDF included.",
+      "version": "0.1.0"
+    }
+  ]
+}

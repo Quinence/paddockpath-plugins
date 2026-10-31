@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "paddockpath-feedlot": {
+      "type": "http",
+      "url": "https://feedlot-mcp.paddockpath.com/mcp"
+    }
+  }
+}
