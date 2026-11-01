@@ -44,8 +44,8 @@ everyone in the organization.
 To add it by hand, go to Customize › Plugins › Add › Upload plugin in claude.ai or the Claude desktop
 app, and choose a zip:
 
-- `paddockpath-feedlot-0.1.0.zip` adds the connector and the skills.
-- `paddockpath-feedlot-skills-0.1.0.zip` adds the skills only, for when you have already added
+- `paddockpath-feedlot-0.1.1.zip` adds the connector and the skills.
+- `paddockpath-feedlot-skills-0.1.1.zip` adds the skills only, for when you have already added
   PaddockPath Feedlot under Connectors yourself.
 
 In Claude Code, run `/plugin install paddockpath-feedlot --marketplace Quinence/paddockpath-plugins` and sign in from
@@ -72,8 +72,8 @@ Ask in any chat, in your own words. For example:
 The plugin holds no records and sends none itself. When Claude uses the connector, PaddockPath's
 server reads your feedlot's records as the person who signed in and answers what Claude asked for.
 What Claude reads goes to Anthropic, under your Claude account and its settings. PaddockPath keeps a
-log of each request, the query and the reason Claude gave for it, to run the service and improve the
-reports. Nothing is ever written to your records. Privacy policy: https://www.paddockpath.com/privacy
+log of each request and its query, to run the service and improve the reports, and nothing of the
+conversation. Nothing is ever written to your records. Privacy policy: https://www.paddockpath.com/privacy
 
 ## Help
 
